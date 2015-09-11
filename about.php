@@ -14,14 +14,14 @@ Author: Priscilla Then, Feb. 23, 2015
 </head>
 
 <body>
-   <?php include('includes/vertical-signature.php'); ?>
-
-   <?php
+    <?php
         $page = "about";
-        include('includes/header.php');
-   ?>
+        include('includes/vertical-signature.php');
+    ?>
 
-    <div class="container">
+    <?php include('includes/header.php');?>
+
+<div class="container">
         <div>
             <img src="images/headshot.png" class="right image-right" title="Me-Priscilla Then"
                  alt="headshot Priscilla Then">
