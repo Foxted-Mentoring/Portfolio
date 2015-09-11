@@ -370,8 +370,9 @@ footer .copyright {
     position: relative;
     top: 32px;
     font-weight: 300;
-    font-size: 0.8em;
+    font-size: 0.75em;
     font-kerning: auto;
+    color: #747474;
 }
 
 footer ul {

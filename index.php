@@ -39,7 +39,7 @@ Note to Jeff: Due to time constraints, only Portfolio Items 1, 3, and 5 are clic
                 <a href="portfolio-items/nwseatcovers.php" title="NW Seatcovers" class="color-change">
                     <img src="images/b-w/nw.jpg" alt="NW project thumbnail">
                     <h2>NW Seatcovers</h2>
-                    <p>Web Banner, e-Flyer</p>
+                    <p>Writing, Web Design</p>
                 </a>
             </li>
             <li>
