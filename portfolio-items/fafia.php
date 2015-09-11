@@ -14,12 +14,12 @@ Author: Priscilla Then, Feb. 23, 2015
 </head>
 
 <body>
-   <?php include('../includes/vertical-signature.php'); ?>
-
    <?php
         $page = "project";
-        include('../includes/header.php');
+        include('../includes/vertical-signature.php');
    ?>
+
+   <?php include('../includes/header.php');?>
 
     <div class="container item-page clearfix">
         <h1>FAFIA</h1>
