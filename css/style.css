@@ -72,7 +72,11 @@ LAYOUT
 
 .container {
     max-width: 1200px;
+<<<<<<< HEAD
     width: 100%;
+=======
+    width: 90%;
+>>>>>>> develop
     margin: auto;
 }
 
@@ -191,8 +195,13 @@ INDIVIDUAL PORTFOLIO ITEMS
 }
 
 .item-images img{
+<<<<<<< HEAD
     max-width: 800px;
     width: 100%;
+=======
+    max-width: 100%;
+    width: 95%;
+>>>>>>> develop
 }
 
 .item-images img {
