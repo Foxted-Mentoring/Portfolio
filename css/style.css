@@ -71,7 +71,8 @@ LAYOUT
 }
 
 .container {
-    width: 960px;
+    max-width: 1200px;
+    width: 90%;
     margin: auto;
 }
 
@@ -192,6 +193,7 @@ INDIVIDUAL PORTFOLIO ITEMS
 
 .item-images img{
     max-width: 100%;
+    width: 95%;
 }
 
 .item-images img {
