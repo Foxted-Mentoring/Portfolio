@@ -373,6 +373,7 @@ footer .copyright {
     font-size: 0.75em;
     font-kerning: auto;
     color: #747474;
+    float: left;
 }
 
 footer ul {
