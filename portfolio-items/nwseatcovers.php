@@ -14,52 +14,49 @@ Author: Priscilla Then, Feb. 23, 2015
 </head>
 
 <body>
-   <?php include('../includes/vertical-signature.php'); ?>
 
    <?php
         $page = "project";
         include('../includes/header.php');
+        include('../includes/vertical-signature.php');
    ?>
 
     <div class="container item-page clearfix">
         <h1>NW Seat Covers</h1>
-        <h2>Web Banner, e-Flyer</h2>
+        <h2>Branding, Writing, e-commerce Website Design</h2>
 
         <div class="item-images">
-            <img src="../images/portfolio-item-images/nwseatcovers.png" alt="NW Seat Covers homepage">
+            <img src="../images/portfolio-item-images/nw-homepage-before-after-med.jpg" alt="NW Seat Covers homepage">
         </div>
 
         <div class="item-description">
             <ul>
                 <li>
                     <h3>Audience</h3>
-                    <p>The United Nations, university scholars, and the general public.</p></li>
+                    <p>Vehicle owners across Canada and the United States.</p></li>
                 <li>
                     <h3>Mandate</h3>
-                    <p>To provide academic resources to hold the government accountable for their promises to improve the situation for women in Canada.</p>
+                    <p>Rebrand corporate identity, conduct User Experience testing, write content and redesign existing website.
+                    </p>
+                </li>
+                <li>
+                    <h3>Branding</h3>
+                    <p>Their old logo was replaced with their new logo. They also didn't have a slogan, so I suggested one for them, "The #1 Choice for Custom-Fit Seat Covers", which not only describes what they do, but also positions them as an industry leader.</p>
+                    <p>I didn't want to change things too drastically, as they have an established reputation with a relatively large customer base, so I wanted them to still be recognizable to customers. Therefore, the same colours and fonts were retained.</p>
                 </li>
                 <li>
                     <h3>Old Website</h3>
-                    <p>The original website was cluttered with information and was not logically grouped for information to be easily found.</p>
-                    <p>Not responsive for mobile devices. Click here to <a href="http://jolly-joey-05.gopagoda.com">view the
-                            old website</a>.</p>
+                    <p>The old home page was relatively clean and modern, but far too text-heavy, almost as if it was "stuffed" with keywords. Some of its top menu bar and footer elements were confusing or redundant (nomenclature such as "My Vehicle", Payments, contact info hard to find, missing store hours, etc.).</p>
                 </li>
+
                 <li>
                     <h3>New Website</h3>
-                    <p>The new website strips away all unnecessary elements, leaving the essentials. The most important goal
-                        was to get donations, so the "Donate" button is repeated in bright yellow at the top and bottom of
-                        every page.</p>
-                    <p>The new website is a custom-made Wordpress website that is responsive as well as multi-lingual
-                        (English & French).</p>
-                    <p>The design was built from scratch with 2D mockups in Photoshop, then brought to life using Bootstrap.</p>
+                    <p>Redesigning the new website was a delicate balance between pleasing the stakeholders, who wanted to only offer customers a way to choose their products by vehicle make/model, or by fabric type, and by the internet marketing specialists whom they contracted out (Graphically Speaking), who emphasized the importance of having enough text for SEO purposes; their in-house web developer, who put constraints on my designs, and myself, who advocated a balance of visual aesthetics, while keeping user needs in mind.</p>
+                    <p>I placed mages of their most popular vehicles, to emphasize the customized nature of their products, and draw attention to their vehicle selector. I also photographed their fabrics in studio by category, to offer customers a visual means of choosing a product by fabric type, whereas previously there was no visual nor verbal explanation of the categories. Customers could also choose to see all the fabrics by clicking the "View All Fabrics" button.</p>
+                    <p>It was also important to describe what makes NW Seat Covers unique, and why customers should choose their product over competitors, so I included a "25 years" seal to highlight their years of experience, as well as video and images to reinforce what gives them their competitive edge.</p>
+                    <p>Finally, I reduced the number of testimonials visible on the Home Page to save precious real estate; if customers want to real more reviews, they could click on the link to "See all reviews".</p>
                 </li>
             </ul>
-
-
-
-
-
-
         </div>
     </div>
 
