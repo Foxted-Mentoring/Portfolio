@@ -17,9 +17,8 @@ Author: Priscilla Then, Feb. 23, 2015
     <?php
         $page = "about";
         include('includes/vertical-signature.php');
+        include('includes/header.php');
     ?>
-
-    <?php include('includes/header.php');?>
 
 <div class="container">
         <div>

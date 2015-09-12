@@ -21,9 +21,8 @@ Note to Jeff: Due to time constraints, only Portfolio Items 1, 3, and 5 are clic
     <?php
         $page = "index";
         include('includes/vertical-signature.php');
+        include('includes/header.php');
     ?>
-
-    <?php include('includes/header.php');?>
 
     <div id="portfolio-items" class="container">
         <h1>Portfolio</h1>

@@ -30,10 +30,9 @@ Author: Priscilla Then, Feb. 2015
 
 <body class="bg-dark">
 
-    <?php include('includes/vertical-signature.php'); ?>
-
     <?php
         $page = "contact";
+        include('includes/vertical-signature.php');
         include('includes/header.php');
     ?>
 
