@@ -15,13 +15,9 @@
         $page = "index";
         include('includes/vertical-signature.php');
         include('includes/header.php');
+        include('includes/portfolio-items.php');
+        include('includes/footer.php');
     ?>
-
-    <div id="portfolio-items" class="container">
-        <h1>Portfolio</h1>
-        <?php include('includes/portfolio-items.php'); ?>
-    </div>
-    <?php include('includes/footer.php'); ?>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script>

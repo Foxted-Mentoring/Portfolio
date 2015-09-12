@@ -44,5 +44,5 @@
             <p>Since FAFIA's website is educational, they wanted to show the evolution of relevant issues and events through a timeline. The text was long and dry to read, so I broke it up through coloured sections, alternating right and left sides for visual interest, and to make a text-heavy section more enjoyable to read.</p>
             <p>The elements used on the website use the same colour palette as in the logo, for unity in design and reinforcement of their branding colours.</p>
         </li>
-    </ul
+    </ul>
 </div>

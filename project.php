@@ -21,23 +21,22 @@
             // 1. Fetch the variable in the URL
             $item = $_GET['item'];
 
+            // If the template exists, include it
             if(file_exists("portfolio-items/$item.php")) {
                 // 2. Include the corresponding template
-                include("portfolio-items/$item.php");
                 // Ex.: project.php?item=dexpan => portfolio-items/dexpan.php
-                // Ex.: project.php?item=fafia
+                include("portfolio-items/$item.php");
             }
+            // Otherwise, display a not found error
             else {
                 include("portfolio-items/not-found.php");
             }
         ?>
+        <hr>
     </div>
-
-    <div class="container">
-        <?php include('includes/portfolio-items.php'); ?>
-    </div>
-
-    <?php include('includes/footer.php'); ?>
-
+    <?php
+        include('includes/portfolio-items.php');
+        include('includes/footer.php');
+    ?>
 </body>
 </html>
