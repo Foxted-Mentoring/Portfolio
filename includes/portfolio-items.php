@@ -1,5 +1,6 @@
 <div id="portfolio-items" class="container">
     <?php if($page == "project") :?>
+        <hr>
         <h2>Portfolio</h2>
     <?php else: ?>
         <h1>Portfolio</h1>
