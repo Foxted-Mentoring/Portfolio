@@ -170,7 +170,7 @@ PORTFOLIO ITEMS
     margin-top: 3px;
 }
 
-#portfolio-items ul li h2, #portfolio-items ul li p{
+#portfolio-items ul li h2, #portfolio-items ul li p {
     padding: 0 20px;
 }
 
@@ -190,7 +190,7 @@ INDIVIDUAL PORTFOLIO ITEMS
     float: left;
 }
 
-.item-images img{
+.item-images img {
     max-width: 100%;
     width: 95%;
 }
@@ -210,18 +210,18 @@ INDIVIDUAL PORTFOLIO ITEMS
     padding: 0;
 }
 
-.item-description ul li{
+.item-description ul li {
     margin-bottom: 25px;
 }
 
 .item-description h3 {
     font-size: 17px;
-    margin-bottom:0;
+    margin-bottom: 0;
     display: inline;
     width: auto;
 }
 
-.item-description p{
+.item-description p {
     font-size: 15px;
     display: inline;
 }
@@ -230,15 +230,18 @@ INDIVIDUAL PORTFOLIO ITEMS
     color: #789401;
 }
 
-.item-description a:hover, a:active{
+.item-description a:hover, a:active {
     color: #a0c502;
 }
+
 .full {
     min-height: 1000px;
 }
+
 .full .item-description {
     width: 100%;
 }
+
 /*
 ABOUT ME
 */
@@ -273,11 +276,16 @@ a:hover, a:active {
     width: 900px;
     height: 400px;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 #contact {
     width: 37%;
     float: left;
+}
+
+#contact h1{
+    margin-top:0px;
 }
 
 #contact-info {
@@ -303,7 +311,7 @@ a:hover, a:active {
 #employer-form {
     float: left;
     width: 57%;
-    margin-left: 5%;
+    margin: 3.8em 0 0 5%;
 }
 
 fieldset {
@@ -318,15 +326,6 @@ legend {
     padding: 0 15px 0 7px;
 }
 
-fieldset#company ul.radio-btn li {
-    margin-bottom: 15px;
-}
-
-fieldset#company label {
-    width: 120px;
-    float: left;
- }
-
 ul.checkbox, ul.radio-btn {
     list-style-type: none;
 }
@@ -338,17 +337,20 @@ ul.checkbox, ul.radio-btn {
 input, textarea {
     color: #515151;
     background-color: #eeeeee;
+    padding: 5px 10px;
+    width: auto;
+    min-width: 90%;
+    margin: 5px 0 10px;
 }
 
 input:focus, textarea:focus {
-    border-color: red   ;
+    border-color: red;
 }
 
 button {
     background-color: #789401;
     color: white;
 }
-
 
 /*
 FOOTER

@@ -56,47 +56,30 @@
                     </li>
                 </ul>
             </section>
-            <!--
-            FORM
-            -->
             <form id="employer-form" method="post" action="http://bcitcomp.ca/1850/comp1850_homework05.php">
-                <section>
-                    <h2>Email Me</h2>
-                    <fieldset id="company">
-                        <legend>Company & Contact Info</legend>
-                        <ul class="radio-btn">
-                            <li>
-                                <label for="firstname">First Name:</label>
-                                <input type="text" name="firstname" id="firstname" alt="first name" cols="20" rows="1">
-                            </li>
-                            <li>
-                                <label for="lastname">Last Name:</label>
-                                <input type="text" name="lastname" id="lastname" alt="last name" cols="20" rows="1">
-                            </li>
-                            <li>
-                                <label for="lastame">Title:</label>
-                                <input type="text" name="title" id="title" alt="title" cols="20" rows="1">
-                            </li>
-                            <li>
-                                <label for="company">Company:</label>
-                                <input type="text" name="company" id="company" alt="company name organization" maxlength="50">
-                            </li>
-                            <li>
-                                <label for="phone">Phone:</label>
-                                <input type="text" name="phone" id="phone" alt="company phone" maxlength="11">
-                            </li>
-                            <li>
-                                <label for="email">Email:</label>
-                                <input type="email" name="email" id="email" alt="email address" maxlength="30">
-                            </li>
-                        </ul>
-                    </fieldset>
-                    <textarea name="comments" id="comments" alt="additional comments" cols="48" rows="12" placeholder="Additional Comments"></textarea>
-
-                    <button type="submit">Submit</button>
-
-                </form>
-            </section>
+                <fieldset id="company">
+                    <legend>
+                        <h2>Email Me</h2>
+                    </legend>
+                    <ul class="radio-btn">
+                        <li>
+                            <label for="name">Name:</label>
+                            <input type="text" name="name" placeholder="Enter your name" required>
+                        </li>
+                        <li>
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" placeholder="Enter your email" required>
+                        </li>
+                        <li>
+                            <label for="message">Message:</label>
+                            <textarea name="message" placeholder="Write your message here" required></textarea>
+                        </li>
+                        <li>
+                            <button type="submit">Submit</button>
+                        </li>
+                    </ul>
+                </fieldset>
+            </form>
         </div>
     </div>
 
