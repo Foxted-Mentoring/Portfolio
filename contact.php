@@ -89,26 +89,6 @@
                                 <label for="email">Email:</label>
                                 <input type="email" name="email" id="email" alt="email address" maxlength="30">
                             </li>
-
-                        </ul>
-                    </fieldset>
-
-                    <fieldset id="position">
-                        <legend>Position</legend>
-                        Looking to fill the position of:<br />
-                        <ul class="radio-btn">
-                            <li>
-                                <input type="radio" name="position" id="graphic-designer" class="checkbox" value="graphic-designer"><label for="graphic-designer">Graphic Designer</label>
-                            </li>
-                            <li>
-                                <input type="radio" name="position" id="web-designer" class="checkbox" value="web-designer"><label for="web-designer">Web Designer</label>
-                            </li>
-                            <li>
-                                <input type="radio" name="position" id="ui-designer" class="checkbox" value="ui-designer"><label for="ui-designer">UI Designer</label>
-                            </li>
-                            <li>
-                                <input type="radio" name="position" id="ux-designer" class="checkbox" value="ux-designer"><label for="ux-designer">UX Designer</label>
-                            </li>
                         </ul>
                     </fieldset>
                     <textarea name="comments" id="comments" alt="additional comments" cols="48" rows="12" placeholder="Additional Comments"></textarea>
