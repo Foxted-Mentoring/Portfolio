@@ -72,7 +72,7 @@ LAYOUT
 
 .container {
     max-width: 1200px;
-    width: 90%;
+    width: 100%;
     margin: auto;
 }
 
@@ -106,13 +106,13 @@ nav ul li {
 nav ul li a:link, nav ul li a:visited {
     text-decoration: none;
     color: #5f5f5e;
-    padding: 0 10px 3px;
-    font-weight: 700;
+    padding: 0 10px 7px;
+    font-weight: 500;
 }
 
 nav ul li.active a:link, nav ul li.active a:visited {
     color: #789401;
-    font-weight: 700;
+    font-weight: 500;
     border-bottom: 5px solid #789401;
 }
 
@@ -160,12 +160,12 @@ PORTFOLIO ITEMS
     font-size: 19px;
     padding: 0;
     margin: 15px 0 0;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 #portfolio-items ul li p {
     font-size: 16px;
-    font-weight: normal;
+    font-weight: 300;
     padding: 0;
     margin-top: 3px;
 }
@@ -185,15 +185,19 @@ INDIVIDUAL PORTFOLIO ITEMS
     margin-top: 7px;
 }
 
-
 .item-images {
     width: 75%;
     float: left;
 }
 
 .item-images img{
+<<<<<<< HEAD
+    max-width: 800px;
+    width: 100%;
+=======
     max-width: 100%;
     width: 95%;
+>>>>>>> develop
 }
 
 .item-images img {
@@ -366,8 +370,10 @@ footer .copyright {
     position: relative;
     top: 32px;
     font-weight: 300;
-    font-size: 0.8em;
+    font-size: 0.75em;
     font-kerning: auto;
+    color: #747474;
+    float: left;
 }
 
 footer ul {
