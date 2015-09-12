@@ -1,3 +1,24 @@
+<?php
+    if(!empty($_POST))
+    {
+        $name = $_POST['name'];
+        $email = $_POST['email'];
+        $message = $_POST['message'];
+
+        $to = 'priscillathen@gmail.com';
+
+        $headers = "From: $name <$email>\r\n";
+
+        if(!empty($name) && !empty($email) && !empty($message)) {
+            $headers = "From: $name <$email>\r\n";
+            @mail($to, 'Contact from my portfolio', $message, $headers);
+            $headers = 'From: Priscilla Then <priscillathen@gmail.com>'."\r\n";
+            @mail($email, 'Your message to priscilla', $message, $headers);
+
+            $_SESSION['feedback'] = "Your message has been sent!";
+        }
+    }
+?>
 <!DOCTYPE html>
 <html>
 <head lang="en">
@@ -56,67 +77,33 @@
                     </li>
                 </ul>
             </section>
-            <!--
-            FORM
-            -->
-            <form id="employer-form" method="post" action="http://bcitcomp.ca/1850/comp1850_homework05.php">
-                <section>
-                    <h2>Email Me</h2>
-                    <fieldset id="company">
-                        <legend>Company & Contact Info</legend>
-                        <ul class="radio-btn">
-                            <li>
-                                <label for="firstname">First Name:</label>
-                                <input type="text" name="firstname" id="firstname" alt="first name" cols="20" rows="1">
-                            </li>
-                            <li>
-                                <label for="lastname">Last Name:</label>
-                                <input type="text" name="lastname" id="lastname" alt="last name" cols="20" rows="1">
-                            </li>
-                            <li>
-                                <label for="lastame">Title:</label>
-                                <input type="text" name="title" id="title" alt="title" cols="20" rows="1">
-                            </li>
-                            <li>
-                                <label for="company">Company:</label>
-                                <input type="text" name="company" id="company" alt="company name organization" maxlength="50">
-                            </li>
-                            <li>
-                                <label for="phone">Phone:</label>
-                                <input type="text" name="phone" id="phone" alt="company phone" maxlength="11">
-                            </li>
-                            <li>
-                                <label for="email">Email:</label>
-                                <input type="email" name="email" id="email" alt="email address" maxlength="30">
-                            </li>
-
-                        </ul>
-                    </fieldset>
-
-                    <fieldset id="position">
-                        <legend>Position</legend>
-                        Looking to fill the position of:<br />
-                        <ul class="radio-btn">
-                            <li>
-                                <input type="radio" name="position" id="graphic-designer" class="checkbox" value="graphic-designer"><label for="graphic-designer">Graphic Designer</label>
-                            </li>
-                            <li>
-                                <input type="radio" name="position" id="web-designer" class="checkbox" value="web-designer"><label for="web-designer">Web Designer</label>
-                            </li>
-                            <li>
-                                <input type="radio" name="position" id="ui-designer" class="checkbox" value="ui-designer"><label for="ui-designer">UI Designer</label>
-                            </li>
-                            <li>
-                                <input type="radio" name="position" id="ux-designer" class="checkbox" value="ux-designer"><label for="ux-designer">UX Designer</label>
-                            </li>
-                        </ul>
-                    </fieldset>
-                    <textarea name="comments" id="comments" alt="additional comments" cols="48" rows="12" placeholder="Additional Comments"></textarea>
-
-                    <button type="submit">Submit</button>
-
-                </form>
-            </section>
+            <form id="employer-form" method="POST">
+                <fieldset id="company">
+                    <legend>
+                        <h2>Email Me</h2>
+                    </legend>
+                    <?php if(isset($_SESSION['feedback'])):?>
+                        <p><?php echo $_SESSION['feedback'];?></p>
+                    <?php unset($_SESSION['feedback']); endif;?>
+                    <ul class="radio-btn">
+                        <li>
+                            <label for="name">Name:</label>
+                            <input type="text" name="name" placeholder="Enter your name" required>
+                        </li>
+                        <li>
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" placeholder="Enter your email" required>
+                        </li>
+                        <li>
+                            <label for="message">Message:</label>
+                            <textarea name="message" placeholder="Write your message here" required></textarea>
+                        </li>
+                        <li>
+                            <button type="submit">Submit</button>
+                        </li>
+                    </ul>
+                </fieldset>
+            </form>
         </div>
     </div>
 

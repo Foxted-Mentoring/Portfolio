@@ -32,7 +32,6 @@
                 include("portfolio-items/not-found.php");
             }
         ?>
-        <hr>
     </div>
     <?php
         include('includes/portfolio-items.php');
