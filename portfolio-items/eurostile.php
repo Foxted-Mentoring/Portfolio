@@ -1,7 +1,3 @@
-<!--
-Author: Priscilla Then, Feb. 23, 2015
--->
-
 <!DOCTYPE html>
 <html>
 <head lang="en">
@@ -14,14 +10,13 @@ Author: Priscilla Then, Feb. 23, 2015
 </head>
 
 <body>
-   <?php include('../includes/vertical-signature.php'); ?>
-
    <?php
         $page = "project";
+        include('../includes/vertical-signature.php');
         include('../includes/header.php');
    ?>
 
-    <div class="container item-page clearfix full">
+    <div class="container full-width item-page clearfix full">
         <h1>Eurostile</h1>
         <h2>Booklet design, copywriting</h2>
 

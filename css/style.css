@@ -71,9 +71,13 @@ LAYOUT
 }
 
 .container {
-    max-width: 1200px;
-    width: 100%;
+    max-width: 950px;
+    width: 85%;
     margin: auto;
+}
+
+.container.full-width {
+    max-width: 1400px;
 }
 
 .clearfix {
@@ -191,13 +195,8 @@ INDIVIDUAL PORTFOLIO ITEMS
 }
 
 .item-images img{
-<<<<<<< HEAD
-    max-width: 800px;
-    width: 100%;
-=======
     max-width: 100%;
     width: 95%;
->>>>>>> develop
 }
 
 .item-images img {

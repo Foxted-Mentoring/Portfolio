@@ -1,7 +1,3 @@
-<!--
-Author: Priscilla Then, Feb. 23, 2015
--->
-
 <!DOCTYPE html>
 <html>
 <head lang="en">
@@ -17,11 +13,10 @@ Author: Priscilla Then, Feb. 23, 2015
    <?php
         $page = "project";
         include('../includes/vertical-signature.php');
+        include('../includes/header.php');
    ?>
 
-   <?php include('../includes/header.php');?>
-
-    <div class="container item-page clearfix">
+    <div class="container full-width item-page clearfix">
         <h1>FAFIA</h1>
         <h2>Branding + Website Redesign</h2>
 

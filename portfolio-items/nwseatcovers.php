@@ -1,7 +1,3 @@
-<!--
-Author: Priscilla Then, Feb. 23, 2015
--->
-
 <!DOCTYPE html>
 <html>
 <head lang="en">
@@ -15,13 +11,13 @@ Author: Priscilla Then, Feb. 23, 2015
 
 <body>
 
-   <?php
+    <?php
         $page = "project";
-        include('../includes/header.php');
         include('../includes/vertical-signature.php');
-   ?>
+        include('../includes/header.php');
+    ?>
 
-    <div class="container item-page clearfix">
+    <div class="container full-width item-page clearfix">
         <h1>NW Seat Covers</h1>
         <h2>Branding, Writing, e-commerce Website Design</h2>
 
