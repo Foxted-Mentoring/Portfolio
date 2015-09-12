@@ -341,8 +341,14 @@ input, textarea {
 }
 
 input:focus, textarea:focus {
-    border-color: #a3b017;
+    border-color: red   ;
 }
+
+button {
+    background-color: #789401;
+    color: white;
+}
+
 
 /*
 FOOTER
