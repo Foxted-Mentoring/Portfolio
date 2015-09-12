@@ -1,10 +1,3 @@
-<!--
-Author: Priscilla Then, Feb. 2015
-The Portfolio Page is the "index" page.
-
-Note to Jeff: Due to time constraints, only Portfolio Items 1, 3, and 5 are clickable. (The remaining items will be added in future.)
--->
-
 <!DOCTYPE html>
 <html>
 <head lang="en">

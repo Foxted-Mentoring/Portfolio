@@ -1,7 +1,3 @@
-<!--
-Author: Priscilla Then, Feb. 23, 2015
--->
-
 <!DOCTYPE html>
 <html>
 <head lang="en">
