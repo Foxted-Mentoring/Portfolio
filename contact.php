@@ -1,3 +1,24 @@
+<?php
+    if(!empty($_POST))
+    {
+        $name = $_POST['name'];
+        $email = $_POST['email'];
+        $message = $_POST['message'];
+
+        $to = 'priscillathen@gmail.com';
+
+        $headers = "From: $name <$email>\r\n";
+
+        if(!empty($name) && !empty($email) && !empty($message)) {
+            $headers = "From: $name <$email>\r\n";
+            @mail($to, 'Contact from my portfolio', $message, $headers);
+            $headers = 'From: Priscilla Then <priscillathen@gmail.com>'."\r\n";
+            @mail($email, 'Your message to priscilla', $message, $headers);
+
+            $_SESSION['feedback'] = "Your message has been sent!";
+        }
+    }
+?>
 <!DOCTYPE html>
 <html>
 <head lang="en">
@@ -56,11 +77,14 @@
                     </li>
                 </ul>
             </section>
-            <form id="employer-form" method="post" action="http://bcitcomp.ca/1850/comp1850_homework05.php">
+            <form id="employer-form" method="POST">
                 <fieldset id="company">
                     <legend>
                         <h2>Email Me</h2>
                     </legend>
+                    <?php if(isset($_SESSION['feedback'])):?>
+                        <p><?php echo $_SESSION['feedback'];?></p>
+                    <?php unset($_SESSION['feedback']); endif;?>
                     <ul class="radio-btn">
                         <li>
                             <label for="name">Name:</label>
