@@ -1,7 +1,3 @@
-<!--
-Author: Priscilla Then, Feb. 2015
--->
-
 <!DOCTYPE html>
 <html>
 <head lang="en">
@@ -30,10 +26,9 @@ Author: Priscilla Then, Feb. 2015
 
 <body class="bg-dark">
 
-    <?php include('includes/vertical-signature.php'); ?>
-
     <?php
         $page = "contact";
+        include('includes/vertical-signature.php');
         include('includes/header.php');
     ?>
 
@@ -54,7 +49,7 @@ Author: Priscilla Then, Feb. 2015
                         <a href="http://linkedin.com/in/priscillathen/en" target="_blank" title="LinkedIn"><i class="fa fa-linkedin"></i>LinkedIn</a>
                     </li>
                     <li>
-                        <a href="http://twitter.com/priscillabiju" target="_blank" title="Twitter"><i class="fa fa-twitter"></i>Twitter</a>
+                        <a href="http://twitter.com/priscillathen" target="_blank" title="Twitter"><i class="fa fa-twitter"></i>Twitter</a>
                     </li>
                     <li>
                         <a href="http://www.facebook.com/priscilla.biju" target="_blank" title="Facebook"><i class="fa fa-facebook"></i>Facebook</a>
@@ -116,25 +111,6 @@ Author: Priscilla Then, Feb. 2015
                             </li>
                         </ul>
                     </fieldset>
-
-                    <fieldset id="employment">
-                        <legend>Type of Employment</legend>
-                        <ul class="radio-btn">
-                            <li>
-                                <input type="radio" name="employment" id="perm-full-time" class="radio-btn" value="Permanent Full-time"><label for="perm-full-time">Permanent Full-time</label>
-                            </li>
-                            <li>
-                                <input type="radio" name="employment" id="perm-part-time" class="radio-btn" value="Permanent Part-time"><label for="perm-part-time">Permanent Part-time</label>
-                            </li>
-                            <li>
-                                <input type="radio" name="employment" id="temp-full-time" class="radio-btn" value="Temporary Full-time"><label for="temp-full-time">Temporary Full-time</label>
-                            </li>
-                            <li>
-                                <input type="radio" name="employment" class="radio-btn" id="temp-part-time" value="Temporary Part-time"><label for="temp-part-time">Temporary Part-time</label>
-                            </li>
-                        </ul>
-                    </fieldset>
-
                     <textarea name="comments" id="comments" alt="additional comments" cols="48" rows="12" placeholder="Additional Comments"></textarea>
 
                     <button type="submit">Submit</button>
