@@ -41,7 +41,7 @@
             <h4>Testimonials</h4>
             <p>The number of testimonials visible on the Home Page was reduced to save precious real estate; if customers want to real more reviews, they could click on the link to "See all reviews".</p>
             <h4>Responsive Design</h4>
-            <p>Mobile and tablet versions were made as well, keeping all the same elements, features and content as in the desktop version.</p>
+            <p>Mobile and tablet versions were made as well, keeping all the same elements, features and content as in the desktop version. The images for the web banner were customized for mobile, and stacked vertically. The clickable areas were made tall enough to easily click, even for the largest fingers.</p>
             <h4>Tools</h4>
             <p>Wireframes: Balsamiq (to come)</p><br>
             <p>2D mockups: Photoshop, Illustrator, Sketch</p><br>
