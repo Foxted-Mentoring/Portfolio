@@ -2,7 +2,8 @@
 <h2>Branding, Writing, e-commerce Website Design</h2>
 
 <div class="item-images">
-    <img src="images/portfolio-item-images/nw-homepage-before-after-med.jpg" alt="NW Seat Covers homepage">
+    <img src="images/portfolio-item-images/nw-homepage-before-after-med.png" alt="NW Seat Covers homepage">
+    <img src="images/portfolio-item-images/nw-homepage-mobile.png" alt="NW Seat Covers homepage">
 </div>
 
 <div class="item-description">
@@ -27,10 +28,24 @@
 
         <li>
             <h3>New Website</h3>
-            <p>Redesigning the new website was a delicate balance between pleasing the stakeholders, who wanted to only offer customers a way to choose their products by vehicle make/model, or by fabric type, and by the internet marketing specialists whom they contracted out (Graphically Speaking), who emphasized the importance of having enough text for SEO purposes; their in-house web developer, who put constraints on my designs, and myself, who advocated a balance of visual aesthetics, while keeping user needs in mind.</p>
-            <p>I placed mages of their most popular vehicles, to emphasize the customized nature of their products, and draw attention to their vehicle selector. I also photographed their fabrics in studio by category, to offer customers a visual means of choosing a product by fabric type, whereas previously there was no visual nor verbal explanation of the categories. Customers could also choose to see all the fabrics by clicking the "View All Fabrics" button.</p>
-            <p>It was also important to describe what makes NW Seat Covers unique, and why customers should choose their product over competitors, so I included a "25 years" seal to highlight their years of experience, as well as video and images to reinforce what gives them their competitive edge.</p>
-            <p>Finally, I reduced the number of testimonials visible on the Home Page to save precious real estate; if customers want to real more reviews, they could click on the link to "See all reviews".</p>
+            <h4>Requirements & Constraints</h4>
+            <p> Redesigning the new website was striking a balance between pleasing several people: 1)&nbsp;Stakeholders, who wanted customers to be able to choose their products by vehicle make/model, or by fabric type; 2) Internet marketing specialists (Graphically Speaking, a reputed Vancouver-based digital marketing agency whom they work with), who emphasized the importance of having enough text for SEO purposes; 3) the Web Developer, whose technical constraints guided my design; and finally, 4) the Visual & UX Designer (myself), where I strived for a balance between visual aesthetics and the practical aspects of user needs.</p>
+            <h4>Understanding the User</h4>
+            <p>I placed mages of their most popular vehicles, to emphasize the customized nature of their products, and to lead into the Vehicle Selector field. Keeping in mind how readers scan rather than read text on the Web, I wanted to get rid of the text-heavy paragraphs, and replace them with lots images and descriptive text, to entice customers to actually read the text, and quickly understand the key points.</p>
+            <h4>Visual Design</h4>
+            <p>NW Seat Covers sells well-constructed, high quality products, so I wanted to reflect that in the website's look and feel through contemporary sophistication and minimalism. Since their customers are an equal gender split, I wanted to keep their look gender neutral.</p>
+            <h4>Photography</h4>
+            <p>Previously there was no visual nor verbal explanation of the categories, so I also used the company's photography studio to photograph their fabrics by category, to allow customers  to better understand the types of fabrics in each category, so that they could choose a product by fabric type. Customers could also choose to see all the fabrics by clicking the "See All Our Fabrics" button.</p>
+            <h4>Emphasizing USP</h4>
+            <p>It was also important to describe what makes NW Seat Covers unique, and why customers should choose their product over competitors, so I included a "25 years" seal to highlight their years of experience, as well as video and images to reinforce what gives the brand their competitive edge.</p>
+            <h4>Testimonials</h4>
+            <p>The number of testimonials visible on the Home Page was reduced to save precious real estate; if customers want to real more reviews, they could click on the link to "See all reviews".</p>
+            <h4>Responsive Design</h4>
+            <p>Mobile and tablet versions were made as well, keeping all the same elements, features and content as in the desktop version.</p>
+            <h4>Tools</h4>
+            <p>Wireframes: Balsamiq (to come)</p><br>
+            <p>2D mockups: Photoshop, Illustrator, Sketch</p><br>
+            <p>Interactive mockups: Axure (to come)</p>
         </li>
     </ul>
 </div>
