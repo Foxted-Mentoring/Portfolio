@@ -2,7 +2,8 @@
 <h2>Branding, Writing, e-commerce Website Design</h2>
 
 <div class="item-images">
-    <img src="images/portfolio-item-images/nw-homepage-before-after-high.png" alt="NW Seat Covers homepage">
+    <img src="images/portfolio-item-images/nw-homepage-before-after-med.png" alt="NW Seat Covers homepage">
+    <img src="images/portfolio-item-images/nw-homepage-mobile.png" alt="NW Seat Covers homepage">
 </div>
 
 <div class="item-description">
@@ -38,7 +39,13 @@
             <h4>Emphasizing USP</h4>
             <p>It was also important to describe what makes NW Seat Covers unique, and why customers should choose their product over competitors, so I included a "25 years" seal to highlight their years of experience, as well as video and images to reinforce what gives the brand their competitive edge.</p>
             <h4>Testimonials</h4>
-            <p>Finally, I reduced the number of testimonials visible on the Home Page to save precious real estate; if customers want to real more reviews, they could click on the link to "See all reviews".</p>
+            <p>The number of testimonials visible on the Home Page was reduced to save precious real estate; if customers want to real more reviews, they could click on the link to "See all reviews".</p>
+            <h4>Responsive Design</h4>
+            <p>Mobile and tablet versions were made as well, keeping all the same elements, features and content as in the desktop version.</p>
+            <h4>Tools</h4>
+            <p>Wireframes: Balsamiq (to come)</p><br>
+            <p>2D mockups: Photoshop, Illustrator, Sketch</p><br>
+            <p>Interactive mockups: Axure (to come)</p>
         </li>
     </ul>
 </div>
