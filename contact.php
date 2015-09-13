@@ -58,7 +58,7 @@
             <div id="map-canvas"></div>
             <section id="contact">
                 <h1>Contact Me</h1>
-                <p>I'm located in downtown Vancouver's West End. Though I'm currently accepting only small freelance projects, I'm always open to new and exciting opportunities. If you like what you see and want to chat, give me a shout!</p>
+                <p>I'm located in downtown Vancouver's West End, and am open to full-time or contract opportunities. If you like what you see and want to chat, don't hesitate to give me a shout!</p>
                 <ul id="contact-info">
                     <li>
                         <a href="mailto:priscillathen@gmail.com"><i class="fa fa-envelope"></i>priscillathen<i class="fa fa-at"></i>gmail.com</a>
