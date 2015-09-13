@@ -1,36 +1,41 @@
 <h1>Eurostile</h1>
-<h2>Booklet design, copywriting</h2>
+<h2>Booklet design, Copywriting</h2>
 
-<!--        <div class="item-images">-->
-<!--            <img src="../images/portfolio-item-images/nwseatcovers.png" alt="NW Seat Covers homepage">-->
-<!--        </div>-->
+<div class="item-images">
+    <img src="images/portfolio-item-images/eurostile-booklet-1.jpg" alt="Eurostile booklet flat open">
+    <img src="images/portfolio-item-images/eurostile-booklet-2.jpg" alt="Eurostile booklet open standing side">
+    <img src="images/portfolio-item-images/eurostile-booklet-3.jpg" alt="Eurostile booklet open standing top">
+</div>
 
 <div class="item-description">
     <ul>
         <li>
             <h3>Audience</h3>
-            <p>The United Nations, university scholars, and the general public.</p></li>
+            <p>Art students, design afficianados, typography fanatics.</p></li>
         <li>
             <h3>Mandate</h3>
-            <p>To provide academic resources to hold the government accountable for their promises to improve the situation for women in Canada.</p>
+            <p>To write and design an educational booklet on the Eurostile font: its creator, including a short biography about the typographer, the source of inspiration to create the font, its uses and applications, and evolution of the type.</p>
         </li>
         <li>
-            <h3>Old Website</h3>
-            <p>The original website was cluttered with information and was not logically grouped for information to be easily found.</p>
-            <p>Not responsive for mobile devices.</p>
+            <h3>Guidelines</h3>
+            <p>No limitations to size, shape or dimensions. Any choice of medium and binding permitted.</p>
         </li>
         <li>
-            <h3>New Website</h3>
-            <p>The new website strips away all unnecessary elements, leaving the essentials. The most important goal
-                was to get donations, so the "Donate" button is repeated in bright yellow at the top and bottom of
-                every page.</p>
-            <p>The new website is a custom-made Wordpress website that is responsive as well as multi-lingual
-                (English & French).</p>
-            <p>The design was built from scratch with 2D mockups in Photoshop, then brought to life using Bootstrap.</p>
+            <h3>Restrictions</h3>
+            <p>A limit of two colours was imposed, due to budget constraints.</p>
+        </li>
+        <li>
+            <h3>Rationale</h3>
+            <p>After researching and writing a short text about the Eurostile font, its evolution, uses and its typographer, I decided to create this booklet in the same shape that inspired its creator, Aldo Novarese.</p>
+            <h4>Concept</h4>
+            <p>Back in the 1950's, TV sets and airplane windows were shaped as squares with rounded corners, inspiring Novarese to reflect this in his typography, with the letter "O" illustrating best this characteristic.</p>
+            <h4>Typographic Patterns & Exploration</h4>
+            <p>I formed different patterns using the letters of the typography to serve as decorative backgrounds, and with no page ever to repeat exactly the same pattern.</p>
+            <p>To make a relatively dry subject interesting, I kept the text as short and concise as possible, using lots of visuals to compliment and support the messages.</p>
+            <h4>Breaking Boundaries</h4>
+            <p>To get around the 2-colour limit, I used different colour blends of only two hues: lime green and navy, to yield a whole gamut of new colours.</p>
+            <h4>End Product</h4>
+            <p>The end result is a booklet that takes the reader on a process of discovery, while making the experience fun, flippant, and an enjoyable read.</p>
         </li>
     </ul>
-
-    <p>
-        <a href="">Back to All Portfolio Items</a>
-    </p>
 </div>
