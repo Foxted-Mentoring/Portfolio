@@ -1,5 +1,5 @@
 <header class="clearfix">
-    <a href="index.php"><img src="images/logo.png" title="Priscilla Then" alt="logo priscilla then"></a>
+    <a href="index.php"><img src="images/logo-visual-ux.png" title="Priscilla Then" alt="logo priscilla then"></a>
     <nav>
         <ul>
             <li <?php if($page == "index" || $page == "project"):?> class="active" <?php endif;?>>
