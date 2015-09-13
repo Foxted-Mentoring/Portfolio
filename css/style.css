@@ -355,6 +355,9 @@ input:focus, textarea:focus {
 button {
     background-color: #789401;
     color: white;
+    padding: 0.25em 3em;
+    border-radius: 0.25em;
+    border: none;
 }
 
 /*
