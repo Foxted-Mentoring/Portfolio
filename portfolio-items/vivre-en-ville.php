@@ -1,33 +1,28 @@
 <h1>Vivre-en-Ville</h1>
-<h2>Booklet design, copywriting</h2>
+<h2>Logo & Stationery</h2>
 
-<!--        <div class="item-images">-->
-<!--            <img src="../images/portfolio-item-images/nwseatcovers.png" alt="NW Seat Covers homepage">-->
-<!--        </div>-->
+<div class="item-images">
+    <img src="images/portfolio-item-images/vivre-en-ville.jpg" alt="Vivre en Ville stationery">
+</div>
 
 <div class="item-description">
     <ul>
         <li>
             <h3>Audience</h3>
-            <p>The United Nations, university scholars, and the general public.</p></li>
+            <p>City of Quebec municipal government, schools and residents of the city.</p></li>
         <li>
             <h3>Mandate</h3>
-            <p>To provide academic resources to hold the government accountable for their promises to improve the situation for women in Canada.</p>
+            <p>To redesign a new logo and stationery materials for Vivre en Ville, a provincially funded, non-profit organization in Quebec City that promotes education and public awareness of the importance of practicing green and sustainable living.</p>
         </li>
         <li>
-            <h3>Old Website</h3>
-            <p>The original website was cluttered with information and was not logically grouped for information to be easily found.</p>
-            <p>Not responsive for mobile devices. Click here to <a href="http://jolly-joey-05.gopagoda.com">view the
-                    old website</a>.</p>
+            <h3>Restrictions</h3>
+            <p>Not to exceed the 2-colour limitation.</p>
         </li>
         <li>
-            <h3>New Website</h3>
-            <p>The new website strips away all unnecessary elements, leaving the essentials. The most important goal
-                was to get donations, so the "Donate" button is repeated in bright yellow at the top and bottom of
-                every page.</p>
-            <p>The new website is a custom-made Wordpress website that is responsive as well as multi-lingual
-                (English & French).</p>
-            <p>The design was built from scratch with 2D mockups in Photoshop, then brought to life using Bootstrap.</p>
+            <h3>Logo</h3>
+            <p>I wanted to convey the concept of a rooftop garden in their new logo, since rooftop gardens are one of the organization's mandates. So I drew the image by hand on paper, then scanned and digitally redrew the plant-like letterforms in Illustrator.</p>
+            <p>The vertical rectangular forms represent buildings, and are in stark contrast to the organic, free-flowing forms of the plants.</p>
+            <p>Thin, vertical and horizontal bars were used to convey modernism through a minimalistic design aesthetic.</p>
         </li>
     </ul>
 </div>
