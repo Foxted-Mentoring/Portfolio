@@ -4,9 +4,10 @@
 <div class="item-images">
     <img src="images/portfolio-item-images/fafia-homepage-before-after.jpg" alt="FAFIA homepage comparison">
     <img src="images/portfolio-item-images/fafia-logo-before-after.png" alt="logo comparison old vs. new">
-    <img src="images/portfolio-item-images/fafia-colours-symbolism.gif" alt="logo comparison old vs. new">
-    <img src="images/portfolio-item-images/fafia-colours-hierarchy.gif" alt="logo comparison old vs. new">
-    <img src="images/portfolio-item-images/fafia-colours-breakdown.gif" alt="logo comparison old vs. new">
+    <img src="images/portfolio-item-images/fafia-wireframes.png" alt="wireframe homepage">
+    <img src="images/portfolio-item-images/fafia-colours-symbolism.gif" alt="fafia branding colour symbolism">
+    <img src="images/portfolio-item-images/fafia-colours-hierarchy.gif" alt="fafia colour hierarchy">
+    <img src="images/portfolio-item-images/fafia-colours-breakdown.gif" alt="fafia branding colour breakdown">
     <img src="images/portfolio-item-images/fafia-timeline.png" alt="timeline">
 </div>
 
