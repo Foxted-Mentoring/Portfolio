@@ -1,5 +1,3 @@
 # Portfolio
 
-This is my portfolio!! 
-
-Yay!
+Voilà my long-awaited portfolio... yay, finally!
