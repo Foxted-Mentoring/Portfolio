@@ -43,6 +43,28 @@
         }
         google.maps.event.addDomListener(window, 'load', initialize);
     </script>
+
+    <script>
+
+        // To show a general area where I'm located.
+        function initMap() {
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 4,
+                center: {lat: 49.3, lng: -123}
+            });
+
+            var image = 'images/map-pin.png';
+            var beachMarker = new google.maps.Marker({
+                position: {lat: 49.2854914, lng: -123.12462},
+                map: map,
+                icon: image
+            });
+        }
+
+    </script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=API_KEY&signed_in=true&callback=initMap"></script>
+
 </head>
 
 <body class="bg-dark">

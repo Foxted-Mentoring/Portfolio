@@ -4,6 +4,8 @@
 <div class="item-images">
     <img src="images/portfolio-item-images/nw-homepage-before-after-med.png" alt="NW Seat Covers homepage">
     <img src="images/portfolio-item-images/nw-homepage-mobile.png" alt="NW Seat Covers homepage">
+    <img src="images/architecture-before.jpg" alt="site-architecture-before">
+    <img src="images/nw-who-we-are.png" alt="who we are portfolio page">
 </div>
 
 <div class="item-description">
