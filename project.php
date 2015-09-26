@@ -11,6 +11,7 @@
 
 <body>
     <?php
+        include_once("analyticstracking.php")
         $page = "project";
         include('includes/vertical-signature.php');
         include('includes/header.php');

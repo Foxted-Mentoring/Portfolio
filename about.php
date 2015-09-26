@@ -12,6 +12,7 @@
 <body>
     <?php
         $page = "about";
+        include_once("analyticstracking.php")
         include('includes/vertical-signature.php');
         include('includes/header.php');
     ?>

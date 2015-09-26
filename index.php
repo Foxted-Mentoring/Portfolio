@@ -10,7 +10,7 @@
 </head>
 
 <body>
-
+    <?php include_once("analyticstracking.php") ?>
     <?php
         $page = "index";
         include('includes/vertical-signature.php');
