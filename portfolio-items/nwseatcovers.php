@@ -5,7 +5,12 @@
     <img src="images/portfolio-item-images/nw-homepage-before-after-med.png" alt="NW Seat Covers homepage">
     <img src="images/portfolio-item-images/nw-homepage-mobile.png" alt="NW Seat Covers homepage">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <img src="images/portfolio-item-images/nw-architecture-before.jpg" alt="site-architecture-before">
+=======
+    <img src="images/portfolio-item-images/architecture-before.jpg" alt="site-architecture-before">
+    <img src="images/portfolio-item-images/nw-wireframe-home.jpg" alt="wireframe-homepage">
+>>>>>>> develop
 =======
     <img src="images/portfolio-item-images/architecture-before.jpg" alt="site-architecture-before">
     <img src="images/portfolio-item-images/nw-wireframe-home.jpg" alt="wireframe-homepage">
