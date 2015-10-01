@@ -1,4 +1,3 @@
-<?php
 /**
  * Created by PhpStorm.
  * User: priscilla
@@ -13,5 +12,4 @@
 
   ga('create', 'UA-68124408-1', 'auto');
   ga('send', 'pageview');
-
 </script>

@@ -10,13 +10,13 @@
 </head>
 
 <body>
-    <?php include_once("analyticstracking.php") ?>
     <?php
         $page = "index";
         include('includes/vertical-signature.php');
         include('includes/header.php');
         include('includes/portfolio-items.php');
         include('includes/footer.php');
+        include_once("includes/analyticstracking.php");
     ?>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>

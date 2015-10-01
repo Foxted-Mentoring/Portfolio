@@ -1,6 +1,4 @@
 <?php
-    include_once("analyticstracking.php")
-
     if(!empty($_POST))
     {
         $name = $_POST['name'];
@@ -131,7 +129,10 @@
         </div>
     </div>
 
-    <?php include('includes/footer.php'); ?>
+    <?php
+        include('includes/footer.php');
+        include_once("includes/analyticstracking.php");
+    ?>
 
 </body>
 </html>
