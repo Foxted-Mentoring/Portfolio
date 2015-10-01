@@ -3,12 +3,8 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Portfolio  |  Priscilla Then</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Oxygen:400,700,300' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
     <?php
         $page = "index";

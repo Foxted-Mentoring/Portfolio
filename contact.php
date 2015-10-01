@@ -24,11 +24,7 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Contact  |  Priscilla Then</title>
-
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Oxygen:400,700,300' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/style.css">
     <script async defer
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBB-WGnVqoJiqV5Xd9WWj9bfK8jI30LwEY&callback=initialize"></script>
     <script>
@@ -50,7 +46,6 @@
                 icon: image
             });
         }
-        //google.maps.event.addDomListener(window, 'load', initialize);
     </script>
 </head>
 

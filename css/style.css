@@ -1,4 +1,11 @@
 /*
+    Libraries
+*/
+@import url("//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css");
+@import url("//fonts.googleapis.com/css?family=Oxygen:400,700,300");
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
+
+/*
 GLOBAL
 */
 body {

@@ -3,10 +3,7 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Portfolio  |  Dexpan</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Oxygen:400,700,300' rel='stylesheet'>
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
