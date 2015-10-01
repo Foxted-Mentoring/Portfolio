@@ -13,7 +13,7 @@
         include('includes/header.php');
     ?>
 
-    <div class="container full-width item-page clearfix">
+    <main class="container full-width item-page clearfix">
         <?php
             // 1. Fetch the variable in the URL
             $item = $_GET['item'];
@@ -29,7 +29,7 @@
                 include("portfolio-items/not-found.php");
             }
         ?>
-    </div>
+    </main>
     <?php
         include('includes/portfolio-items.php');
         include('includes/footer.php');

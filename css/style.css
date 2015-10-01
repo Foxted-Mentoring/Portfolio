@@ -1,5 +1,5 @@
 /*
-    Libraries
+LIBRARIES
 */
 @import url("//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css");
 @import url("//fonts.googleapis.com/css?family=Oxygen:400,700,300");
@@ -9,17 +9,17 @@
 GLOBAL
 */
 body {
+    color: #5f5f5e;
+    background-color: #e4e3e0;
     border-top: 7px solid #789401;
     border-bottom: 7px solid #789401;
     font-family: Oxygen, Helvetica, sans-serif;
-    background-color: #e4e3e0;
-    color: #5f5f5e;
 }
 
 h1, h2, h3 {
-    text-transform: uppercase;
     color: #789401;
     font-weight: 300;
+    text-transform: uppercase;
 }
 
 h2, h3 {
@@ -33,7 +33,7 @@ h2 {
 h4 {
     font-size: 0.8em;
     margin-top: 1.3em;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 p {
@@ -42,27 +42,22 @@ p {
 }
 
 a:link, a:visited {
-    color: #789401;
+    color: #a0c502;
     font-weight: 500;
     text-decoration: none;
 }
 
 a:hover, a:active {
-    color: #a3b017;
+    color: #789401;
 }
 
-.image-left {
-    margin-right: 40px;
-}
-
-.image-right {
-    margin-left: 40px;
-}
-
+/*
+    Vertical signature
+*/
 #vertical-signature {
-    position: relative;
-    top: 960px;
     left: 40px;
+    bottom: 10px;
+    position: fixed;
     transform: rotate(270deg);
     transform-origin: top left 0;
 }
@@ -70,18 +65,10 @@ a:hover, a:active {
 /*
 LAYOUT
 */
-.left {
-    float: left;
-}
-
-.right {
-    float: right;
-}
-
 .container {
-    max-width: 950px;
     width: 85%;
     margin: auto;
+    max-width: 950px;
 }
 
 .container.full-width {
@@ -93,7 +80,7 @@ LAYOUT
 }
 
 /*
-HEADER
+    Header
 */
 header img {
     float: left;
@@ -103,23 +90,23 @@ header img {
 NAVIGATION
 */
 nav ul {
-    list-style-type: none;
     float: right;
+    list-style-type: none;
     padding: 20px 80px 20px 0;
 }
 
 nav ul li {
     display: inline;
-    text-transform: uppercase;
     text-align: center;
     margin-right: 20px;
+    text-transform: uppercase;
 }
 
 nav ul li a:link, nav ul li a:visited {
-    text-decoration: none;
     color: #5f5f5e;
-    padding: 0 10px 7px;
     font-weight: 500;
+    padding: 0 10px 7px;
+    text-decoration: none;
 }
 
 nav ul li.active a:link, nav ul li.active a:visited {
@@ -139,50 +126,50 @@ nav ul li .fa {
 }
 
 /*
-PORTFOLIO ITEMS
+PORTFOLIO ITEMS MENU
 */
-#portfolio-items ul {
+.portfolio-items ul {
     padding: 0;
 }
 
-#portfolio-items ul li {
+.portfolio-items ul li {
+    max-width: 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
     text-decoration: none;
     list-style-type: none;
     display: inline-block;
-    margin-right: 20px;
-    max-width: 300px;
     background-color: #747474;
-    margin-bottom: 20px;
 }
 
-#portfolio-items ul li:nth-child(3n) {
+.portfolio-items ul li:nth-child(3n) {
     margin-right: 0 !important;
 }
 
-#portfolio-items ul li a:link, #portfolio-items ul li a:visited {
-    text-decoration: none;
+.portfolio-items ul li a:link, .portfolio-items ul li a:visited {
     color: white;
+    text-decoration: none;
 }
 
-#portfolio-items ul li a:link h2, #portfolio-items ul li a:visited h2 {
+.portfolio-items ul li a:link h2, .portfolio-items ul li a:visited h2 {
     color: #a3b017;
 }
 
-#portfolio-items ul li h2 {
-    font-size: 19px;
+.portfolio-items ul li h2 {
     padding: 0;
+    font-size: 19px;
     margin: 15px 0 0;
     font-weight: 500;
 }
 
-#portfolio-items ul li p {
-    font-size: 16px;
-    font-weight: 300;
+.portfolio-items ul li p {
     padding: 0;
     margin-top: 3px;
+    font-size: 16px;
+    font-weight: 300;
 }
 
-#portfolio-items ul li h2, #portfolio-items ul li p {
+.portfolio-items ul li h2, .portfolio-items ul li p {
     padding: 0 20px;
 }
 
@@ -197,61 +184,53 @@ INDIVIDUAL PORTFOLIO ITEMS
     margin-top: 7px;
 }
 
-.item-images {
+.item-page .item-images {
     width: 75%;
     float: left;
 }
 
-.item-images img {
-    max-width: 100%;
+.item-page .item-images img {
     width: 95%;
+    max-width: 100%;
 }
 
-.item-images img {
+.item-page .item-images img {
     margin-bottom: 50px;
 }
 
-.item-description {
+.item-page .item-description {
     width: 25%;
     float: left;
     margin-top: -25px;
 }
 
-.item-description ul {
-    list-style: none;
+.item-page .item-description ul {
     padding: 0;
+    list-style: none;
 }
 
-.item-description ul li {
+.item-page .item-description ul li {
     margin-bottom: 25px;
 }
 
-.item-description h3 {
+.item-page .item-description h3 {
+    width: auto;
+    display: inline;
     font-size: 17px;
     margin-bottom: 0;
-    display: inline;
-    width: auto;
 }
 
-.item-description p {
+.item-page .item-description p {
     font-size: 15px;
     display: inline;
 }
 
-.item-description a:link, a:visited {
+.item-page .item-description a:link, .item-page .item-description a:visited {
     color: #789401;
 }
 
-.item-description a:hover, a:active {
+.item-page .item-description a:hover, .item-page .item-description a:active {
     color: #a0c502;
-}
-
-.full {
-    min-height: 1000px;
-}
-
-.full .item-description {
-    width: 100%;
 }
 
 /*
@@ -263,27 +242,98 @@ ABOUT ME
 
 /*
 CONTACT PAGE
--CONTACT INFO-
 */
-.bg-dark #wrapper {
-    background-color: #515151;
+.contact-page #wrapper {
     color: #e4e3e0;
-    padding: 20px 0 80px;
     margin-bottom: 0;
+    padding: 20px 0 80px;
+    background-color: #515151;
 }
 
-.bg-dark #vertical-signature {
+.contact-page #vertical-signature {
     color: #e4e3e0;
 }
 
-a:link, a:visited {
+.contact {
+    width: 37%;
+    float: left;
+}
+
+.contact h1 {
+    margin-top: 0;
+}
+
+.contact .contact-info {
+    padding-left: 0;
+    list-style: none;
+}
+
+.contact .contact-info li {
+    margin-bottom: 15px;
+}
+
+.contact .contact-info li .fa {
+    width: 30px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.contact .contact-info li .fa-at {
+    margin-right: 0;
+}
+
+/*
+CONTACT FORM
+*/
+.contact-form {
+    width: 57%;
+    float: left;
+    margin: 3.8em 0 0 5%;
+}
+
+.contact-form fieldset {
+    margin-bottom: 20px;
+    border: 1px dotted #789401;
+}
+
+.contact-form legend {
     color: #a0c502;
+    font-weight: 300;
+    padding: 0 15px 0 7px;
+    text-transform: uppercase;
 }
 
-a:hover, a:active {
-    color: #789401;
+.contact-form input, .contact-form textarea {
+    width: auto;
+    color: #515151;
+    min-width: 90%;
+    padding: 5px 10px;
+    margin: 5px 0 10px;
+    background-color: #eeeeee;
 }
 
+.contact-form input:focus, .contact-form textarea:focus {
+    border-color: red;
+}
+
+.contact-form button {
+    border: none;
+    color: white;
+    padding: 0.25em 3em;
+    border-radius: 0.25em;
+    background-color: #789401;
+}
+
+/*
+ALERTS
+*/
+.feedback {
+    text-align: center;
+}
+
+/*
+MAP
+*/
 #map-canvas {
     width: 900px;
     height: 400px;
@@ -291,113 +341,33 @@ a:hover, a:active {
     margin-bottom: 30px;
 }
 
-#contact {
-    width: 37%;
-    float: left;
-}
-
-#contact h1{
-    margin-top:0px;
-}
-
-#contact-info {
-    list-style: none;
-    padding-left: 0;
-}
-
-#contact-info li {
-    margin-bottom: 15px;
-}
-
-#contact-info li .fa {
-    margin-right: 15px;
-    width: 30px;
-    text-align: center;
-}
-
-#contact-info li .fa-at {
-    margin-right: 0;
-}
-
-/*--FORM--*/
-#employer-form {
-    float: left;
-    width: 57%;
-    margin: 3.8em 0 0 5%;
-}
-
-fieldset {
-    margin-bottom: 20px;
-    border: 1px dotted #789401;
-}
-
-legend {
-    color: #a0c502;
-    text-transform: uppercase;
-    font-weight: 300;
-    padding: 0 15px 0 7px;
-}
-
-ul.checkbox, ul.radio-btn {
-    list-style-type: none;
-}
-
-.checkbox, .radio-btn {
-    margin-right: 10px;
-}
-
-input, textarea {
-    color: #515151;
-    background-color: #eeeeee;
-    padding: 5px 10px;
-    width: auto;
-    min-width: 90%;
-    margin: 5px 0 10px;
-}
-
-input:focus, textarea:focus {
-    border-color: red;
-}
-
-button {
-    background-color: #789401;
-    color: white;
-    padding: 0.25em 3em;
-    border-radius: 0.25em;
-    border: none;
-}
-
 /*
 FOOTER
 */
 footer {
-    background-color: #434343;
     color: #e4e3e0;
     text-align: center;
+    background-color: #434343;
 }
 
 footer small {
     padding: 32px 0;
 }
 
-footer .fa-sitemap {
-    padding-right: 7px;
-}
-
 footer .copyright {
-    position: relative;
     top: 32px;
+    float: left;
+    color: #747474;
     font-weight: 300;
     font-size: 0.75em;
+    position: relative;
     font-kerning: auto;
-    color: #747474;
-    float: left;
 }
 
 footer ul {
+    padding: 10px;
     text-decoration: none;
     list-style-type: none;
-    padding: 10px;
 }
 
 footer ul li {
@@ -410,7 +380,24 @@ footer .fa {
 }
 
 /*
-
+UTILITIES
 */
+.image-left {
+    margin-right: 40px;
+}
 
+.image-right {
+    margin-left: 40px;
+}
 
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.list-unstyled {
+    list-style-type: none;
+}

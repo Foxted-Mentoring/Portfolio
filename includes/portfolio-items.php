@@ -1,4 +1,4 @@
-<div id="portfolio-items" class="container">
+<section class="portfolio-items container">
     <?php if($page == "project") :?>
         <hr>
         <h2>Portfolio</h2>
@@ -49,4 +49,4 @@
             </a>
         </li>
     </ul>
-</div>
+</section>

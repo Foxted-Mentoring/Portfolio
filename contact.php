@@ -1,23 +1,5 @@
 <?php
-    if(!empty($_POST))
-    {
-        $name = $_POST['name'];
-        $email = $_POST['email'];
-        $message = $_POST['message'];
-
-        $to = 'priscillathen@gmail.com';
-
-        $headers = "From: $name <$email>\r\n";
-
-        if(!empty($name) && !empty($email) && !empty($message)) {
-            $headers = "From: $name <$email>\r\n";
-            @mail($to, 'Contact from my portfolio', $message, $headers);
-            $headers = 'From: Priscilla Then <priscillathen@gmail.com>'."\r\n";
-            @mail($email, 'Your message to priscilla', $message, $headers);
-
-            $_SESSION['feedback'] = "Your message has been sent!";
-        }
-    }
+    session_start();
 ?>
 <!DOCTYPE html>
 <html>
@@ -25,31 +7,11 @@
     <meta charset="UTF-8">
     <title>Contact  |  Priscilla Then</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/googlemaps.js"></script>
     <script async defer
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBB-WGnVqoJiqV5Xd9WWj9bfK8jI30LwEY&callback=initialize"></script>
-    <script>
-        function initialize() {
-            // Create map
-            var mapCanvas = document.getElementById('map-canvas');
-            var mapOptions = {
-                center: new google.maps.LatLng(49.2845419, -123.1245691),
-                zoom: 13,
-                mapTypeId: google.maps.MapTypeId.ROADMAP
-            }
-            var map = new google.maps.Map(mapCanvas, mapOptions);
-
-            // Create map marker
-            var image = './images/map-pin.png';
-            var marker = new google.maps.Marker({
-                position: {lat: 49.2832949, lng: -123.122801617},
-                map: map,
-                icon: image
-            });
-        }
-    </script>
 </head>
-
-<body class="bg-dark">
+<body class="contact-page">
 
     <?php
         $page = "contact";
@@ -60,10 +22,10 @@
     <div id="wrapper">
         <div class="container clearfix">
             <div id="map-canvas"></div>
-            <section id="contact">
+            <section class="contact">
                 <h1>Contact Me</h1>
                 <p>I'm located in downtown Vancouver's West End, and am open to full-time or contract opportunities. If you like what you see and want to chat, don't hesitate to give me a shout!</p>
-                <ul id="contact-info">
+                <ul class="contact-info">
                     <li>
                         <a href="mailto:priscillathen@gmail.com"><i class="fa fa-envelope"></i>priscillathen<i class="fa fa-at"></i>gmail.com</a>
                     </li>
@@ -81,15 +43,15 @@
                     </li>
                 </ul>
             </section>
-            <form id="employer-form" method="POST">
+            <form action="send-message.php" method="POST" class="contact-form">
                 <fieldset id="company">
                     <legend>
                         <h2>Email Me</h2>
                     </legend>
                     <?php if(isset($_SESSION['feedback'])):?>
-                        <p><?php echo $_SESSION['feedback'];?></p>
+                        <p class="feedback"><?php echo $_SESSION['feedback'];?></p>
                     <?php unset($_SESSION['feedback']); endif;?>
-                    <ul class="radio-btn">
+                    <ul class="list-unstyled">
                         <li>
                             <label for="name">Name:</label>
                             <input type="text" name="name" placeholder="Enter your name" required>
