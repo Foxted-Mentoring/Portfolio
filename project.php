@@ -33,7 +33,8 @@
     <?php
         include('includes/portfolio-items.php');
         include('includes/footer.php');
-        include_once("includes/analyticstracking.php");
+        include("includes/scripts.php");
+        include("includes/analyticstracking.php");
     ?>
 </body>
 </html>
