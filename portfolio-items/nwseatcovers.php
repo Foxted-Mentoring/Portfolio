@@ -4,12 +4,8 @@
 <div class="item-images">
     <img src="images/portfolio-item-images/nw-homepage-before-after-med.png" alt="NW Seat Covers homepage">
     <img src="images/portfolio-item-images/nw-homepage-mobile.png" alt="NW Seat Covers homepage">
-<<<<<<< HEAD
     <img src="images/portfolio-item-images/architecture-before.jpg" alt="site-architecture-before">
     <img src="images/portfolio-item-images/nw-wireframe-home.jpg" alt="wireframe-homepage">
-=======
-    <img src="images/portfolio-item-images/nw-architecture-before.jpg" alt="site-architecture-before">
->>>>>>> master
     <img src="images/portfolio-item-images/nw-who-we-are.png" alt="who we are portfolio page">
 </div>
 
