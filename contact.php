@@ -1,4 +1,6 @@
 <?php
+    include_once("analyticstracking.php")
+
     if(!empty($_POST))
     {
         $name = $_POST['name'];
