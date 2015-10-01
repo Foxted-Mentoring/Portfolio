@@ -29,42 +29,29 @@
     <link href='http://fonts.googleapis.com/css?family=Oxygen:400,700,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
-
-    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBB-WGnVqoJiqV5Xd9WWj9bfK8jI30LwEY&callback=initialize"></script>
     <script>
         function initialize() {
+            // Create map
             var mapCanvas = document.getElementById('map-canvas');
             var mapOptions = {
                 center: new google.maps.LatLng(49.2845419, -123.1245691),
                 zoom: 13,
                 mapTypeId: google.maps.MapTypeId.ROADMAP
             }
-            var map = new google.maps.Map(mapCanvas, mapOptions)
-        }
-        google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
+            var map = new google.maps.Map(mapCanvas, mapOptions);
 
-    <script>
-
-        // To show a general area where I'm located.
-        function initMap() {
-            var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 4,
-                center: {lat: 49.3, lng: -123}
-            });
-
-            var image = 'images/map-pin.png';
-            var beachMarker = new google.maps.Marker({
-                position: {lat: 49.2854914, lng: -123.12462},
+            // Create map marker
+            var image = './images/map-pin.png';
+            var marker = new google.maps.Marker({
+                position: {lat: 49.2832949, lng: -123.122801617},
                 map: map,
                 icon: image
             });
         }
-
+        //google.maps.event.addDomListener(window, 'load', initialize);
     </script>
-    <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=API_KEY&signed_in=true&callback=initMap"></script>
-
 </head>
 
 <body class="bg-dark">
