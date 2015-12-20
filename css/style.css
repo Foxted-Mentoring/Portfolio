@@ -82,15 +82,27 @@ LAYOUT
 /*
     Header
 */
-header img {
+header > a {
+    width: 50%;
+    margin: 0;
+    max-width: 100%;
     float: left;
+}
+
+header a img {
+    max-width: 100%;
+}
+
+header nav {
+    width: 50%;
+    float: right;
+    text-align: right;
 }
 
 /*
 NAVIGATION
 */
 nav ul {
-    float: right;
     list-style-type: none;
     padding: 20px 80px 20px 0;
 }
@@ -99,7 +111,12 @@ nav ul li {
     display: inline;
     text-align: center;
     margin-right: 20px;
+    padding-bottom: .2em;
     text-transform: uppercase;
+}
+
+nav ul li.active, nav ul li:hover {
+    border-bottom: 5px solid #789401;
 }
 
 nav ul li a:link, nav ul li a:visited {
@@ -112,12 +129,10 @@ nav ul li a:link, nav ul li a:visited {
 nav ul li.active a:link, nav ul li.active a:visited {
     color: #789401;
     font-weight: 500;
-    border-bottom: 5px solid #789401;
 }
 
 nav ul li a:hover {
     color: #789401;
-    border-bottom: 5px solid #789401;
 }
 
 nav ul li .fa {
@@ -167,6 +182,10 @@ PORTFOLIO ITEMS MENU
     margin-top: 3px;
     font-size: 16px;
     font-weight: 300;
+}
+
+.portfolio-items ul li img{
+    min-width: 100%;
 }
 
 .portfolio-items ul li h2, .portfolio-items ul li p {
@@ -400,4 +419,112 @@ UTILITIES
 
 .list-unstyled {
     list-style-type: none;
+}
+
+/* Media Queries */
+/* Large Devices, Wide Screens */
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1024px) {
+    .container {
+        width: 95%;
+        margin: auto;
+        max-width: 950px;
+    }
+    header a img {
+        max-width: 80%;
+    }
+    nav {
+        font-size: .8em;
+        margin-top: 1.5em;
+    }
+    nav ul {
+        padding: 0;
+        display:flex;
+    }
+    nav ul li {
+        display: inline-block;
+        flex: 1;
+    }
+    .portfolio-items ul li {
+        width: 48%;
+        max-width: 50%;
+    }
+    .portfolio-items ul li:nth-child(3n) {
+        margin-right: 20px !important;
+    }
+    .portfolio-items ul li:nth-child(2n) {
+        margin-right: 0 !important;
+    }
+    #vertical-signature {
+        display: none;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    nav {
+        margin-top: -1em;
+    }
+    .portfolio-items ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .portfolio-items ul li img {
+        max-width: 100%;
+    }
+    nav ul li a i {
+        display: block !important;
+        text-decoration: none;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    header a,  header nav{
+        float: none;
+    }
+    header a img {
+        max-width: 100%;
+    }
+    header nav {
+        width: 100%;
+        margin:auto;
+        text-align: center;
+    }
+    nav ul li a i {
+        display: block;
+    }
+    nav ul li:last-child {
+        margin-right: 0;
+    }
+    .portfolio-items ul {
+        margin: 0;
+        padding: 0;
+    }
+    .portfolio-items ul li {
+        width: 100%;
+        max-width: 100%;
+        display: block;
+        margin: auto 0 3em;
+        padding-bottom: 1em;
+    }
+    footer .copyright {
+        float: none;
+        top: 0;
+        margin-top: 2em;
+        text-align: center;
+    }
+    footer ul.right {
+        float: none;
+        margin: 1em 0 0;
+    }
+    footer ul.right li:last-child {
+        padding-right: 0;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 360px) {
+
 }
