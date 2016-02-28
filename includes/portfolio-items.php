@@ -7,6 +7,14 @@
     <?php endif;?>
     <ul>
         <li>
+            <a href="project.php?item=terracana" title="TerraCana" class="color-change">
+                <img src="images/b-w/terracana.jpg" alt="TerraCana project thumbnail">
+                <h2>TerraCana Foundation Solutions Inc.</h2>
+                <p>Branding, Website Redesign</p>
+            </a>
+        </li>
+
+        <li>
             <a href="project.php?item=nwseatcovers" title="NW Seatcovers" class="color-change">
                 <img src="images/b-w/nw.jpg" alt="NW project thumbnail">
                 <h2>NW Seatcovers</h2>
