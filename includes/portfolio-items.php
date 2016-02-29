@@ -9,7 +9,7 @@
         <li>
             <a href="project.php?item=terracana" title="TerraCana" class="color-change">
                 <img src="images/b-w/terracana.jpg" alt="TerraCana project thumbnail">
-                <h2>TerraCana Foundation Solutions Inc.</h2>
+                <h2>TerraCana Foundations</h2>
                 <p>Branding, Website Redesign</p>
             </a>
         </li>
