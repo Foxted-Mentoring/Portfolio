@@ -7,6 +7,13 @@
     <?php endif;?>
     <ul>
         <li>
+            <a href="project.php?item=zenxmed" title="Zenxmed" class="color-change">
+                <img src="images/b-w/zenxmed.jpg" alt="Zenxmed project thumbnail">
+                <h2>Zenxmed</h2>
+                <p>UX Research, Website Redesign</p>
+            </a>
+        </li>
+        <li>
             <a href="project.php?item=terracana" title="TerraCana" class="color-change">
                 <img src="images/b-w/terracana.jpg" alt="TerraCana project thumbnail">
                 <h2>TerraCana Foundations</h2>
